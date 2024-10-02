@@ -5,10 +5,6 @@
   padding: 15px;
 }
 
-.card:hover {
-  transform: translateY(-4px); /* Эффект наведения */
-}
-
 /* .card-image {
   width: 100%;
   height: auto;
