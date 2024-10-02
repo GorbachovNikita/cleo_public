@@ -1,12 +1,23 @@
 import React from 'react';
-import './Cards.page.css'
+import './Cards.page.css';
+import Card from './Card';
+import {cards} from'../helpers/CardList';
 
-const Cards = () => {
-    return (
-        <div>
-            Cards
-        </div>
-    );
+const CardList = () => {
+
+  return (
+    <div className="card-list">
+      {cards.map((card) => (
+        <Card
+          key={card.id}
+          title={card.title}
+          description={card.description}
+          image={card.image}
+          createdAt={card.createdAt}
+        />
+      ))}
+    </div>
+  );
 };
 
-export default Cards;
+export default CardList;
