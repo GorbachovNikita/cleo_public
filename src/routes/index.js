@@ -1,4 +1,4 @@
-import CleoNews from "../pages/CleoNews";
+import News from "../pages/news/News/News";
 import Authorization from "../pages/Authorization";
 import Card from "../pages/Card";
 import Cards from "../pages/Cards";
@@ -14,7 +14,7 @@ export const privateRouters = [
 export const publicRoutes = [
 
     {path: '/', element: Cards},
-    {path: '/cleonews', element: CleoNews},
+    {path: '/cleonews', element: News},
     {path: '/authorization', element: Authorization},
     {path: '/cards/:id', element: Card},
     {path: '/cards', element: Cards},

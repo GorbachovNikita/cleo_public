@@ -1,0 +1,9 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(180deg, rgba(251,219,159,1) 0%, rgba(176,138,94,1) 100%, rgba(251,219,159,1) 100%);
+  border-radius: 12px;
+  /* width: 1064px; */
+  margin: 0 auto;
+  gap: 20px;
+}
