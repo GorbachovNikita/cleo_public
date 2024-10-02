@@ -10,3 +10,12 @@ a {
   text-decoration: none;
   outline: none;
 }
+
+body {
+  background-image: url('./assets/img/body.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  margin: 0; 
+  height: 100vh;
+}
