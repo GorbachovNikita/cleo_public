@@ -2,6 +2,7 @@ import React from 'react';
 import CardItem from '../CardItem/CardItem';
 import './CardList.page.css';
 import SearchIcon from '../../../assets/icons/search.svg';
+import FilterIcon from '../../../assets/icons/filters.svg'
 
 const CardList = () => {
   const cardData = [
@@ -35,6 +36,11 @@ const CardList = () => {
         <input type="text" className="search-input" placeholder="Search" aria-label="Search" />
         <button className="search-button" aria-label="Search">
           <img src={SearchIcon} alt="Search" className='icon-search' />
+        </button>
+      </div>
+      <div className="filter-container">
+        <button className="filter-button" aria-label="Filter">
+          <img src={FilterIcon} alt="Search" className='icon-filter' />
         </button>
       </div>
       <div className='grid-card'>

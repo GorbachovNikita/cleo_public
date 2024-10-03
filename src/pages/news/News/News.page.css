@@ -5,24 +5,24 @@
 
 @media screen and (max-width: 930px) {
   .container {
-    padding: 35px 160px;
+    padding: 50px 160px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .container {
-    padding: 30px 140px;
+    padding: 40px 120px;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 570px) {
   .container {
-    padding: 20px 60px;
+    padding: 40px 60px;
   }
 }
 
 @media screen and (max-width: 440px) {
   .container {
-    padding: 30px;
+    padding: 60px 30px;
   }
 }
