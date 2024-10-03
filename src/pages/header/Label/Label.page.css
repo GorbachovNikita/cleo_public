@@ -22,21 +22,11 @@
 
 @media screen and (max-width: 760px) {
   .label {
-    width: 150px;
-  }
-  .titleShop {
-    font-size: 20px;
-    padding-right: 30px;
-  }
-}
-
-@media screen and (max-width: 560px) {
-   .label {
     width: 120px;
     height: 50px;
   }
   .titleShop {
     font-size: 18px;
-     padding-right: 47px;
+    padding-right: 47px;
   }
 }
