@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial;
   font-size: 16px;
+  font-family: "Rowdies", sans-serif;
 }
 
 a {
@@ -12,9 +15,13 @@ a {
 }
 
 body {
-  background-image: url('./assets/img/body.jpg');
-  background-position: center bottom; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed; 
-  background-size: cover; 
+  background-image: url("./assets/img/body.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  font-family: "Prompt", sans-serif;
 }

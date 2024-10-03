@@ -7,13 +7,13 @@ import {observer} from "mobx-react-lite";
 const App = observer(() => {
 
   return (
-      <BrowserRouter>
+    <BrowserRouter>
 
-        <PagesTitle />
+      <PagesTitle />
 
-        <AppRouter />
+      <AppRouter />
 
-      </BrowserRouter>
+    </BrowserRouter>
   );
 });
 
