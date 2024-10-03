@@ -1,27 +1,27 @@
-.content {
+.container {
   padding: 100px 200px;
 }
 
 @media screen and (max-width: 930px) {
-  .content {
+  .container {
     padding: 80px 160px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .content {
+  .container {
     padding: 70px 140px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .content {
+  .container {
     padding: 20px 60px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .content {
+  .container {
     padding: 30px;
   }
 }

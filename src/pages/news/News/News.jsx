@@ -8,7 +8,7 @@ const News = () => {
     return (
     <>
     <Header />
-    <div className='content'>
+    <div className='container'>
         <CleoNews />
         <NewsCards />
     </div>
