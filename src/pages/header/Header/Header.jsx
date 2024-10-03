@@ -1,7 +1,7 @@
 import React from 'react';
 import Label from '../Label/Label';
 import Tabs from '../Tabs/Tabs';
-// import './Cards.page.css';
+import Menu from '../Menu/Menu'
 
 const Header = () => {
 
@@ -9,6 +9,7 @@ const Header = () => {
     <div>
         <Label />
         <Tabs />
+        <Menu />
     </div>
   );
 };
