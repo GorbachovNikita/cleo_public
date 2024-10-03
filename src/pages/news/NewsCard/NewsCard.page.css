@@ -1,7 +1,6 @@
 .card {
-  padding: 16px;
   margin: 8px;
-  display: flex;
+  display: grid;
   padding: 15px;
 }
 
@@ -20,9 +19,8 @@
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
   margin-top: 10px;
+  grid-column: 2/2;
 }
 
 .card-title {
@@ -45,15 +43,25 @@
   line-height: 140%;
 }
 
-.dec {
+.dec::before {
   /* color: #17182670; */
+  content: "";
   color: red;
   width: 2px;
   height: 100%;
 }
 
-@media screen and (max-width: 360px) {
-  .card-list {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 930px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .card-content {
+    margin-top: 5px;
+  }
+  .card-image {
+    margin-right: 0;
+    margin-top: 10px;
   }
 }

@@ -40,3 +40,30 @@
   position: relative;
   margin-left: 13rem;
 }
+
+@media screen and (max-width: 930px) {
+  .news {
+    align-items: center;
+    padding: 13px;
+  }
+  .image {
+    display: none;
+  }
+  .title {
+    font-size: 26px;
+    margin: 10px auto;
+  }
+  .description {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .news {
+    padding: 10px;
+  }
+  .title {
+    font-size: 23px;
+    margin: 8px auto;
+  }
+}
