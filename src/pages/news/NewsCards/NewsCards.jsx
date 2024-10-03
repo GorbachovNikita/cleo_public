@@ -7,7 +7,7 @@ const NewsCards = () => {
 
   return (
   <>
-  <div className="card-list">
+  <div className="card-list-news">
     {cards.map((card) => (
     <NewsCard
       key={card.id}
@@ -18,7 +18,7 @@ const NewsCards = () => {
     />
     ))}
     <div className='btnContent'>
-     <button className="btn">Load More</button>
+      <button className="btn">Load More</button>
     </div>
    </div>
   </>
