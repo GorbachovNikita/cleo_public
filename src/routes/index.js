@@ -1,7 +1,7 @@
-import News from "../pages/news/News/News";
+import News from "../pages/News/News/News";
 import Authorization from "../pages/Authorization";
 // import Card from "../pages/Card";
-import Cards from "../pages/card/CardPage/CardPage";
+import Cards from "../pages/Cards/Cards";
 import FAQ from "../pages/FAQ";
 import Profile from "../pages/Profile";
 import Rules from "../pages/Rules";

@@ -1,14 +1,14 @@
 import React from 'react';
-import './Tabs.page.css';
-import TopUpIcon from '../../../assets/icons/top-up.svg';
-import CartIcon from '../../../assets/icons/cart.svg';
-import PersonIcon from '../../../assets/icons/person.svg';
-import  MenuIcon from '../../../assets/icons/menu.svg';
+import './Tabs.css';
+import TopUpIcon from '../../assets/icons/top-up.svg';
+import CartIcon from '../../assets/icons/cart.svg';
+import PersonIcon from '../../assets/icons/person.svg';
+import  MenuIcon from '../../assets/icons/menu.svg';
 
 const Tabs = () => {
 
   return (
- <div className='content-tabs'>
+   <div className='content-tabs'>
   <h3 className='titleHeader'>
     Balance: <span className='spanTitle'>$300</span>
   </h3>

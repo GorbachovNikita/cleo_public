@@ -17,8 +17,11 @@ const NewsCards = () => {
       createdAt={card.createdAt}
     />
     ))}
+
     <div className='btnContent'>
-      <button className="btn">Load More</button>
+      <button className="btn">
+        Load More
+      </button>
     </div>
    </div>
   </>
