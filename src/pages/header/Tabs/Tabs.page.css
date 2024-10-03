@@ -1,0 +1,42 @@
+.content-tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  align-items: center;
+  column-gap: 30px;
+  margin-right: 4rem;
+}
+
+.titleHeader {
+  color: #fbdb9f;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.spanTitle {
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btnHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #171826;
+  border: 1px solid #472f2b;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #fbdb9f;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 6px;
+}
