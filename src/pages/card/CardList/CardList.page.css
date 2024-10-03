@@ -7,7 +7,7 @@
   );
   border-radius: 12px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   position: relative;
   margin: 40px;
 }
@@ -67,7 +67,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 20px;
+  column-gap: 20px;
 }
 
 .btnContent-cards {
