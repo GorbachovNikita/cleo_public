@@ -21,3 +21,42 @@
   font-size: 13px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1400px) {
+  .menu-buttons {
+    gap: 10px;
+  }
+  .menu-button {
+    padding: 8px 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    margin-right: 3rem;
+  }
+  .menu-buttons {
+    gap: 10px;
+  }
+  .menu-button {
+    padding: 8px 40px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .menu {
+    margin-right: 2.5rem;
+  }
+  .menu-buttons {
+    gap: 10px;
+  }
+  .menu-button {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .menu-buttons {
+    display: none;
+  }
+}
