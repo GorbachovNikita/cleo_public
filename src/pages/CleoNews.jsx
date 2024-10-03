@@ -1,12 +1,9 @@
-import React from 'react';
-import './CleoNews.page.css'
+// import React from 'react';
 
-const CleoNews = () => {
-    return (
-        <div>
-            CleoNews
-        </div>
-    );
-};
+// const CleoNews = () => {
+//     return (
+//         <></>
+//     );
+// };
 
-export default CleoNews;
+// export default CleoNews;

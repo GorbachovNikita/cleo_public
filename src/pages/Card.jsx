@@ -3,9 +3,8 @@ import './Card.page.css'
 
 const Card = () => {
     return (
-        <div>
-            Card
-        </div>
+      <div>
+     </div>
     );
 };
 
