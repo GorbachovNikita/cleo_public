@@ -22,7 +22,12 @@ const Fiters = (props) => {
             })
           }
          
-        <div className='select'>
+        <div className='select range'>
+          <p className='select-p'>Price, $</p>
+          <div className='select-div'>
+            <span className='select-number'>0</span>
+            <span className='select-number'>100</span>
+          </div>
           <InputRange />
         </div>
 

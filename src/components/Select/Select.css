@@ -4,11 +4,15 @@
   color: #fbdb9f;
   border-radius: 6px;
   width: 170px;
-  height: 30px;
   padding: 0 0 0 5px;
   margin-top: 8px;
   font-size: 13px;
-  appearance: none; 
+  appearance: none;
+  position: relative;
+}
+
+.select.range {
+  height: 45px;
 }
 
 .select:focus {

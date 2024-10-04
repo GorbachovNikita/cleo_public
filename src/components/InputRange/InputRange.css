@@ -4,6 +4,9 @@ input[type="range"] {
   border: none;
   width: 100%;
   accent-color: #ffd78c99;
+  width: 160px;
+  position: absolute;
+  bottom: 15px;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {

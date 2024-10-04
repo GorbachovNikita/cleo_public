@@ -118,6 +118,10 @@
   .card-prod-title {
     font-size: 14px;
   }
+  .prod-img {
+    width: 70px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -126,6 +130,10 @@
   }
   .prod-block {
     margin: 0;
-    gap: 10;
+    gap: 8px;
+  }
+  .prod-img {
+    width: 60px;
+    height: 38px;
   }
 }
