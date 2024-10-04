@@ -7,7 +7,8 @@
   height: 30px;
   padding: 0 0 0 5px;
   margin-top: 8px;
-  appearance: none;
+  font-size: 13px;
+  appearance: none; 
 }
 
 .select:focus {
@@ -29,4 +30,11 @@
   background: url("../../assets//icons//arrow.svg") no-repeat center;
   background-size: contain;
   pointer-events: none;
+}
+
+@media screen and (max-width: 360px) {
+  .select {
+    width: 250px;
+    padding: 0 0 0 10px;
+  }
 }

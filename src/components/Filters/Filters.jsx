@@ -2,14 +2,18 @@ import React from 'react';
 import './Filters.css';
 import CustomSelect from '../Select/Select';
 import { InputRange } from '../InputRange/InputRange';
+import CloseIcon from '../../assets/icons/close.svg'
 
 const Fiters = (props) => {
-    const {labels, options} = props;
+    const {labels, options } = props;
 
     return (
         <div className='block-filters'>
            <div className='filter-header'>
               <h3 className='filter-title'>Filters</h3>
+            <button className='close-button'>
+                <img src={CloseIcon} alt='Close' className='close-icon'/>
+            </button>
           </div>
 
           {

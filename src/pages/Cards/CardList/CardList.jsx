@@ -6,6 +6,7 @@ import Search from '../../../components/Search/Search';
 import Filter from '../../../components/Filter/Filter';
 
 const CardList = () => {
+
   return (
     <div className="card-list">
 
