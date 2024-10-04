@@ -46,14 +46,6 @@
   font-weight: 300;
 }
 
-.dec::before {
-  /* color: #17182670; */
-  content: "";
-  color: red;
-  width: 2px;
-  height: 100%;
-}
-
 @media screen and (max-width: 930px) {
   .card {
     display: flex;

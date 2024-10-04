@@ -19,8 +19,6 @@ const NewsCard = ({ title, description, image, createdAt }) => {
             {description}
           </p>
       </div>
-
-      <div className='dec'></div>
      </article>
     );
 };

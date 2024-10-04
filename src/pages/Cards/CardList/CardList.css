@@ -55,7 +55,15 @@
   border: 1px solid #472f2b;
   font-weight: 500;
   cursor: pointer;
-  /* flex: 1; */
+}
+
+.btn-cards:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(251, 219, 159, 1) 0%,
+    rgba(176, 138, 94, 1) 100%,
+    rgba(251, 219, 159, 1) 100%
+  );
 }
 
 .filter-container {
