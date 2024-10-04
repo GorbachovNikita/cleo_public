@@ -10,6 +10,8 @@
   padding: 30px;
   position: relative;
   margin-bottom: 20px;
+  flex: 1;
+  border: 1px solid #B08A5E;
 }
 
 .item-header {
@@ -53,6 +55,7 @@
   border: 1px solid #472f2b;
   font-weight: 500;
   cursor: pointer;
+  /* flex: 1; */
 }
 
 @media screen and (max-width: 1400px) {

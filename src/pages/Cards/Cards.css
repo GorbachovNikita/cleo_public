@@ -1,6 +1,14 @@
 .container-cards {
-  padding: 60px 200px;
+  padding: 60px 100px;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1100px) {
+  .filter-card {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 930px) {

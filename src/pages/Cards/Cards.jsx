@@ -2,6 +2,8 @@ import React from 'react';
 import './Cards.css'
 import Header from '../../components/Header/Header';
 import CardList from './CardList/CardList';
+import Fiters from '../../components/Filters/Filters';
+import { labels, options } from '../../consts/options';
 
 const Cards = () => {
 
@@ -9,6 +11,10 @@ const Cards = () => {
     <>
     <Header />
     <div className='container-cards'>
+        <Fiters
+          labels={labels}
+          options={options}
+        />
         <CardList />
     </div>
     </>

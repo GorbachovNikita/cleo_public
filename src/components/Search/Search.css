@@ -39,12 +39,21 @@
   display: flex;
 }
 
+@media screen and (max-width: 1200px) {
+  .search-input {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .search-container {
     top: -50px;
     right: 0;
     background: #fbdb9f;
     border-radius: 6px;
+  }
+  .search-input {
+    width: 170px;
   }
 }
 

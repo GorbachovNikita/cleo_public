@@ -5,6 +5,7 @@ import Cards from "../pages/Cards/Cards";
 import FAQ from "../pages/FAQ";
 import Profile from "../pages/Profile";
 import Rules from "../pages/Rules";
+import Cart from '../pages/Cart/Cart'
 
 export const privateRouters = [
 
@@ -17,7 +18,7 @@ export const publicRoutes = [
     {path: '/cleonews', element: News},
     {path: '/authorization', element: Authorization},
     // {path: '/cards/:id', element: Card},
-    {path: '/cards', element: Cards},
+    {path: '/cart', element: Cart},
     {path: '/faq', element: FAQ},
     {path: '/profile', element: Profile},
     {path: '/rules', element: Rules},

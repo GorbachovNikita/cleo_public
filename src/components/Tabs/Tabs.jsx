@@ -4,6 +4,7 @@ import TopUpIcon from '../../assets/icons/top-up.svg';
 import CartIcon from '../../assets/icons/cart.svg';
 import PersonIcon from '../../assets/icons/person.svg';
 import  MenuIcon from '../../assets/icons/menu.svg';
+import { Link } from 'react-router-dom';
 
 const Tabs = () => {
 
@@ -13,18 +14,22 @@ const Tabs = () => {
     Balance: <span className='spanTitle'>$300</span>
   </h3>
   <div className='tab-buttons'>
-    <button className='btnHeader' aria-label="Top up balance">
+    
+    <Link to="/topup" className='btnHeader' aria-label="Top up balance">
       Top up
       <img src={TopUpIcon} alt="Top up" className='icon' />
-    </button>
-    <button className='btnHeader' aria-label="View cart">
-      Cart
+    </Link>
+
+    <Link to="/cart" className='btnHeader' aria-label="View cart">
+       Cart 
       <img src={CartIcon} alt="Cart" className='icon' />
-    </button>
-    <button className='btnHeader' aria-label="View profile">
+    </Link>
+
+    <Link to="/profile" className='btnHeader' aria-label="View profile">
       Profile
       <img src={PersonIcon} alt="Profile" className='icon' />
-    </button>
+    </Link>
+
   </div>
   <div className='btnHeader-mobile'>   
      <button className='btnHeader' aria-label="View profile">
