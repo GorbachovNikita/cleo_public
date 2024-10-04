@@ -1,12 +1,11 @@
 import React from 'react';
-import './Profile.page.css'
 
-
-const Profile = () => {
+const Carts = () => {
     return (
         <div>
+            Carts
         </div>
     );
 };
 
-export default Profile;
+export default Carts;

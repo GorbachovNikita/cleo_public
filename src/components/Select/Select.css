@@ -1,0 +1,32 @@
+.select {
+  background: #171826;
+  border: 1px solid #472f2b;
+  color: #fbdb9f;
+  border-radius: 6px;
+  width: 170px;
+  height: 30px;
+  padding: 0 0 0 5px;
+  margin-top: 8px;
+  appearance: none;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 9px;
+  background: url("../../assets//icons//arrow.svg") no-repeat center;
+  background-size: contain;
+  pointer-events: none;
+}
