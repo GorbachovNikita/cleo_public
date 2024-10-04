@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardItem from '../CardItem/ CardItem';
 import './CardList.css';
 import { cardData } from '../../../helpers/CardData';
 import Search from '../../../components/Search/Search';
-import Filter from '../../../components/Filter/Filter';
+import FilterIcon from '../../../assets/icons/filters.svg';
+import Filters from '../../../components/Filters/Filters'
 
-const CardList = () => {
+const CardList = ({ labels, options }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleFilters = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="card-list">
@@ -15,7 +21,12 @@ const CardList = () => {
       </div>
 
       <Search />
-      <Filter />
+      <div className="filter-container">
+        <button className="filter-button" aria-label="Filter" onClick={toggleFilters}>
+          <img src={FilterIcon} alt="Filter" className="icon-filter" />
+        </button>
+      {isOpen && <Filters isOpen={isOpen} setIsOpen={setIsOpen} labels={labels} options={options} />}
+    </div>
       
       <div className='grid-card'>
        {cardData.map((card) => (

@@ -15,7 +15,7 @@ const Cards = () => {
           labels={labels}
           options={options}
         />
-        <CardList />
+        <CardList labels={labels} options={options}/>
     </div>
     </>
   );

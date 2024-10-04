@@ -1,5 +1,6 @@
 .block-filters {
   width: min-content;
+  height: max-content;
   border-radius: 12px;
   background: linear-gradient(
     180deg,
@@ -9,9 +10,31 @@
   );
   border: 1px solid #b08a5e;
   padding: 20px;
-  height: max-content;
   margin-right: 10px;
   position: relative;
+  z-index: 999;
+}
+
+.open.block-filters {
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block-filters_container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.487);
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.block-filters_container.open {
+  display: block; /* Показать при открытии фильтров */
 }
 
 .filter-header {
@@ -88,13 +111,22 @@
 .select-number {
   color: #fbdb9f;
   font-size: 10px;
-  padding-top: 8px;
+  padding-top: 4px;
   padding-right: 5px;
 }
 
 @media screen and (max-width: 1100px) {
   .block-filters {
     display: none;
+  }
+  .open.block-filters {
+    display: block;
+  }
+  .btn-filter {
+    width: 100%;
+  }
+  .close-button {
+    display: flex;
   }
 }
 
@@ -104,11 +136,5 @@
   }
   .filter-title {
     font-size: 16px;
-  }
-  .btn-filter {
-    width: 100%;
-  }
-  .close-button {
-    display: flex;
   }
 }

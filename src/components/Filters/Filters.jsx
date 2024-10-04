@@ -5,16 +5,17 @@ import { InputRange } from '../InputRange/InputRange';
 import CloseIcon from '../../assets/icons/close.svg'
 
 const Fiters = (props) => {
-    const {labels, options } = props;
+    const {labels, options, isOpen, setIsOpen } = props;
 
     return (
-        <div className='block-filters'>
+      <div className={`${isOpen ? "block-filters_container": ""}`}>
+        <div className={`block-filters ${isOpen ? "open" : ""}`}>
            <div className='filter-header'>
               <h3 className='filter-title'>Filters</h3>
-            <button className='close-button'>
+            <button className='close-button' onClick={() => setIsOpen(false)}>
                 <img src={CloseIcon} alt='Close' className='close-icon'/>
             </button>
-          </div>
+      </div>
 
           {
             labels.map((label) => {
@@ -22,7 +23,7 @@ const Fiters = (props) => {
             })
           }
          
-        <div className='select range'>
+        <div className='select'>
           <p className='select-p'>Price, $</p>
           <div className='select-div'>
             <span className='select-number'>0</span>
@@ -39,6 +40,7 @@ const Fiters = (props) => {
                 Clear all
             </button>
             </div>
+        </div>
         </div>
     );
 };

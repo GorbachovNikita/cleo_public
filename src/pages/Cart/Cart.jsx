@@ -5,7 +5,7 @@ import CartBlock from './CartBlock/CardtBlock'
 const Carts = () => {
     return (
     <>
-       <Header />
+    <Header />
     <div className='container'>
         <CartBlock />
     </div>
