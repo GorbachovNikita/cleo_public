@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import './Authorization.page.css'
-import Label from "../components/Label/Label"
-import SiteInput from "../components/UI/inputs/SiteInput"
-import SiteLinkButton from "../components/UI/inputs/SiteLinkButton"
-import SiteButton from "../components/UI/inputs/SiteButton"
-import CleopatraImage from "../components/cleopatraImage"
-import qr_code from '../assets/img/authorization/Frame 33.png'
+import Label from "../../components/Label/Label"
+import SiteInput from "../../components/UI/inputs/SiteInput"
+import SiteLinkButton from "../../components/UI/inputs/SiteLinkButton"
+import SiteButton from "../../components/UI/inputs/SiteButton"
+import CleopatraImage from "../../components/cleopatraImage"
+import qr_code from '../../assets/img/authorization/qr-code.svg'
 
 const Authorization = () => {
 
