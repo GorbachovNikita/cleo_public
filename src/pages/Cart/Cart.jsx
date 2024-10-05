@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import CartBlock from './CartBlock/CardtBlock'
+import CartBlock from './CartBlock/CardtBlock';
 
 const Carts = () => {
     return (
