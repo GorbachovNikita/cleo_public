@@ -8,21 +8,21 @@ const PageTitle = ({ title }) => {
 
     const pagesTitle = {
 
-        '/': 'Товары',
+        '/': 'Cards',
 
-        '/authorization': 'Авторизация',
-        '/cards': 'Товары',
-        '/cards/:id': 'Товар',
-        '/cleonews': 'Новости',
+        '/authorization': 'Authorization',
+        '/cards': 'Cards',
+        '/cart': 'Cart',
+        '/cleonews': 'Cleonews',
         '/faq': 'FAQ',
-        '/profile': 'Профиль',
-        '/rules': 'Правила',
+        '/profile': 'Profile',
+        '/rules': 'Rules',
     }
 
     title = pagesTitle[location.pathname]
 
     if(title === undefined) {
-        title = 'Страница не найдена'
+        title = 'Page not found'
     }
 
     useEffect(() => {
