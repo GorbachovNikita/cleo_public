@@ -2,8 +2,8 @@
 import Authorization from "../pages/Authorization/Authorization";
 import Cards from "../pages/Cards/Cards";
 //import FAQ from "../pages/FAQ/FAQ";
-//import Profile from "../pages/Profile/Profile";
-//import Rules from "../pages/Rules/Rules";
+import Profile from "../pages/Profile/Profile";
+import Rules from "../pages/Rules/Rules";
 //import Cart from '../pages/Cart/Cart'
 
 //Часть страниц
@@ -19,6 +19,6 @@ export const publicRoutes = [
     {path: '/authorization', element: Authorization},
     //{path: '/cart', element: Cart},
     //{path: '/faq', element: FAQ},
-    //{path: '/profile', element: Profile},
-    //{path: '/rules', element: Rules},
+    {path: '/profile', element: Profile},
+    {path: '/rules', element: Rules},
 ]
