@@ -6,6 +6,7 @@ import Cards from "../pages/Cards/Cards";
 //import Rules from "../pages/Rules/Rules";
 //import Cart from '../pages/Cart/Cart'
 
+//Часть страниц
 export const privateRouters = [
 
     {path: '/', element: Cards},
