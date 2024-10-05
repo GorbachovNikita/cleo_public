@@ -28,6 +28,9 @@
   font-weight: 400;
   margin: 8px 0;
   font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
 }
 
 .card-description {
@@ -36,6 +39,11 @@
   line-height: 140%;
   font-weight: 400;
   font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 15;
 }
 
 .card-date {
