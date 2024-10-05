@@ -37,7 +37,6 @@
 
 .article-price {
   font-size: 13px;
-  z-index: 10;
   color: #fbdb9f;
 }
 
@@ -89,6 +88,12 @@
   height: 36px;
   bottom: 20px;
   right: 20px;
+  transition: 0.3s ease;
+}
+
+.article-btn:hover {
+  width: 104px;
+  height: 40px;
 }
 
 @media screen and (max-width: 630px) {

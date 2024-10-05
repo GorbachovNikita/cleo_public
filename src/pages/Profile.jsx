@@ -1,6 +1,5 @@
 import React from 'react';
-import './Profile.page.css'
-
+import './Profile.page.css';
 
 const Profile = () => {
     return (
