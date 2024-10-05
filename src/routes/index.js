@@ -1,4 +1,4 @@
-import News from "../pages/news/News/News";
+import News from "../pages/News/News/News";
 import Authorization from "../pages/Authorization/Authorization";
 import Cards from "../pages/Cards/Cards";
 import FAQ from "../pages/FAQ/FAQ";

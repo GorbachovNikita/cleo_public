@@ -65,7 +65,9 @@ const Authorization = () => {
 
     return (
         <div>
+            <div className='label-form'>
             <Label/>
+            </div>
 
             <div className="authorization_form">
                 <div className="authorization_title">
